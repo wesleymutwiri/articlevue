@@ -1,5 +1,5 @@
 from rest_framework import routers
-from article.viewsets import ArticlViewSet
+from articles.viewsets import ArticleViewSet
 
 router = routers.DefaultRouter()
-router.register(r'article', ArticlViewSet)
+router.register(r'articles',ArticleViewSet)
