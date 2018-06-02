@@ -15,7 +15,7 @@
                 <tbody>
                     <tr v-for="article in articles">
                         <th scope="row">${article.article_id}</th>
-                        <td>${article.article_heading</td>
+                        <td>${article.article_heading}</td>
                         <td>
                             <button class="btn btn-info" v-on:click="getArticle(article.article_id)">Edit</button>
                             <button class="btn btn-danger" v-on:click="deleteArticle(article.article_id)">Delete</button>
